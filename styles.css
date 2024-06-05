@@ -1,0 +1,30 @@
+body{
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+#container{
+    position: relative;
+}
+#container > #flex-box{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    width: 1200px;
+    background-color: #00A9CE;
+}
+#container > #flex-box > #yellow-box{
+    height: 200px;
+    width: 1200px;
+    background-color: #FDDA25;
+}
+#container > #triangle{
+    position: absolute;
+    height: 0;
+    width: 0;
+    border-left: 500px solid black;
+    border-top: 300px solid transparent;
+    border-bottom: 300px solid transparent;
+}
